@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #1976D2; /* Primary Blue */
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 16px;
+    color: white;
+}
+
+.spacer {
+    flex: 1;
+}
+
+/* Button Styling */
+button {
+    font-size: 25px; /* Increased font size */
+    padding: 8px 16px; /* Adds better spacing */
+    background: none; /* Removes background */
+    border: none; /* Removes border */
+    color: white; /* Text remains white */
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+}
+
+button.active {
+    font-weight: 600;
+}
+
+/* Remove or update custom-toolbar if needed */
+.custom-toolbar {
+    background-color: #1976D2; /* Blue toolbar */
+}

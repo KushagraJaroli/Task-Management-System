@@ -1,0 +1,47 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #3f51b5;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        mat-form-field {
+            margin-top: 20px;
+        }
+
+        button {
+            align-self: center;
+            margin-top: 16px;
+            background-color: #1976D2 !important; /* Blue color */
+            color: white !important; /* Ensures text is visible */
+            border-radius: 0px !important; /* Makes borders rectangular */
+            padding: 10px 20px; /* Adds some spacing */
+            border: 1px solid #1565C0; /* Slightly darker border */
+            font-size: 20px !important;
+        }
+
+        button:hover {
+            background-color: #1565C0 !important; /* Darker blue on hover */
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+
+        form {
+            mat-form-field {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
